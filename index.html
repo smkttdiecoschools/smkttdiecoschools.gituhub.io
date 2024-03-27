@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>Eco School SMKTTDI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+
+                    <li><a href="Contact-us-test.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+<div class="text-box">
+    <h1> Welcome to SMKTTDI Eco School</h1>
+    <p>This website is about SMKTTDI'S Eco School program that will be conducted until 2026.<br>We
+    will touch on topics about the school and our ecosystem.<br>We aim to help the world in becoming a better place.
+    </p>
+
+</div>
+    </section>
+
+<!---------------------More info--------------------->
+
+<section class="moreinfo">
+    <h1>SMKTTDI Eco School Units</h1>
+    <p>The Eco-Schools Programme is a fundamental education based initiative which encourages young people <br>to engage in their environment by allowing them the opportunity to actively protect it through <br>an eco-project that they identify, design and implement in their local area through their school.</p>
+
+    <div class="row">
+        <div class="info-col">
+            <h3>Media And Photography</h3>
+            <p>Unit resposible for all the social media and website updates.</p>
+        </div>
+        <div class="info-col">
+            <h3>Data And Documentation</h3>
+            <p>Unit that analyses data which has been received.</p>
+        </div>
+        <div class="info-col">
+            <h3>Projects</h3>
+            <p>Unit for all Eco Schools projects.</p>
+        </div>
+        <div class="info-col">
+            <h3>Public Relations</h3>
+            <p>Unit for public awareness and events.</p>
+        </div>
+    </div>
+
+</section>
+
+<!---------------campus------------->
+
+<section class="activity">
+    <h1>Activities We've Done</h1>
+    <p>These are the activities that Eco School SMKTTDI has done so far.</p>
+    <div class="row">
+        <div class="activity-col">
+            <img src="eduford_img/london.jpg">
+            <div class="layer">
+                <h3>Interacting With Other Schools</h3>
+            </div>
+        </div>
+        <div class="activity-col">
+            <img src="eduford_img/newyork.jpg">
+            <div class="layer">
+                <h3>Documentation</h3>
+            </div>
+        </div>
+        <div class="activity-col">
+            <img src="eduford_img/washington.jpg">
+            <div class="layer">
+                <h3>Eco School workshops</h3>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!---------------Goals------------->
+
+<section class="goals">
+    <h1>Our Goals</h1>
+    <p>These are the goals we would want to achive.</p>
+    <div class="row">
+        <div class="goal-col">
+            <img src="eduford_img/library.jpg">
+            <p>Society is fully included in the benefits of economic growth <br>leading to poverty eradication, higher living<br> standards and enhanced wellbeing.</p>
+        </div>
+        <div class="goal-col">
+            <img src="eduford_img/cafe.jpg">
+            <p>The Environment is healthy and is not being depleted or<br> adversely impacted by economic and <br>social development.</p>
+        </div>
+        <div class="goal-col">
+            <img src="eduford_img/basketball.png">
+            <p>Education for Sustainable Development has empowered  <br>people to change the way they think and work towards<br> a sustainable lifestyle and future.</p>
+        </div> 
+    </div>
+</section>
+
+<!---------------Contact us------------->
+
+<section class="ctus">
+    <h1>If you are interested in anything you've seen on the Eco School SMKTTDI website.<br> Please feel free to Contact us for any business purposes.</h1>
+
+    <a href="Contact-us-test.html" class="hero-btn">Contact Us</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------JavaScript for Toggle Menu--------------------->
+<script>
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-220px";
+    }
+</script>
+
+</body>
+</html>
